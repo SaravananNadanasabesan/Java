@@ -1,3 +1,11 @@
+Write a program that calculates the energy needed
+to heat water from an initial temperature to a final temperature. Your program
+should prompt the user to enter the amount of water in kilograms and the initial
+and final temperatures of the water. If water weight is negative number, the following message should be displayed: “Water amount cannot be negative number!”
+
+The formula to compute the energy is:
+result = waterWeight * (finalTemperature – initialTemperature) * 4184 
+
 import java.util.Scanner;
 
 public class WaterHeatingEnergyCalculator {
